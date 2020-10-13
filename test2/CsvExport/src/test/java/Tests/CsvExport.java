@@ -23,7 +23,7 @@ import PageObject.Dialog;
         userList.clickOnCheckboxUSR();
         userList.clickOnButtonExportToCsv();
 
-       userList.waitForFileDownloaded("fileName.csv", 10,"C:\Users\User\Downloads");
-        userList.verifyDownloadFile("C:\Users\User\Downloads");
+       userList.waitForFileDownloaded("fileName.csv", 10,"/var/lib/jenkins/workspace/copyAndRuntTests/");
+        userList.verifyDownloadFile("/var/lib/jenkins/workspace/copyAndRuntTests/");
 
 }}

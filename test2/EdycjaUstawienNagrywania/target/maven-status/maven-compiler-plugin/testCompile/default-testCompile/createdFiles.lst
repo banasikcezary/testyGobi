@@ -1,9 +1,0 @@
-PageObject/UserList.class
-testng/listeners/TestListener.class
-Tests/EdycjaUstawienNagrywania.class
-testng/listeners/RetryAnalyzer.class
-PageObject/ConnectionsSettingsPage.class
-Tests/TestBase.class
-PageObject/Dialog.class
-PageObject/LoginPage.class
-testng/listeners/AnnotationTransformer.class

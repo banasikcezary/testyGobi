@@ -8,6 +8,8 @@ import org.testng.ITestResult;
 import java.util.Set;
 
 public class TestListener implements ITestListener {
+
+
     @Override
     public void onFinish(ITestContext context) {
         Set<ITestResult> failedTests = context.getFailedTests().getAllResults();
@@ -46,7 +48,6 @@ public class TestListener implements ITestListener {
 
     public void onTestFailure(ITestResult result) {
         System.out.println("The name of the testcase failed is :"+result.getName());
-
     }
 
     public void onTestSkipped(ITestResult result) {

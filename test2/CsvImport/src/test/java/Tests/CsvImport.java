@@ -17,8 +17,7 @@ import PageObject.Dialog;
         loginPage.clickIntoLogInButton();
 
         loginPage.checkPositiveLoginToApp();
-id,userStatus,login,firstName,lastName,number,email,recordingVpabxIncomingCalls,recordingDirectlyIncomingCalls,recordingOutgoingCalls,canSwitchOffRecordingOutgoingCalls,directIncomingCalls,division,serviceNumber
-1591,0,adod23,adod2232,adod2,,adod@oppl,true,true,true,true,true,jednostka12,23asb3
+
 
  UserList userList = new UserList(driver);
         userList.clickOnButtonImportCsv();
