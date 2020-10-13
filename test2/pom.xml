@@ -24,7 +24,6 @@
 <module>DodanieUprawnieniaDoRoli</module>
 
 <module>WyszukiwanieUsera</module>
-<module>EdycjaUstawienNagrywania</module>
 <module>CsvImport</module>
 <module>CsvExport</module>
 <module>DodanieTaguDoNagrania</module>
