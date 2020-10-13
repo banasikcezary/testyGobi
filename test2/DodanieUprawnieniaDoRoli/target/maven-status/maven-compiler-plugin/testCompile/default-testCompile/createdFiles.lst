@@ -1,0 +1,9 @@
+testng/listeners/TestListener.class
+Tests/DodanieUprawnieniaDoRoli.class
+testng/listeners/RetryAnalyzer.class
+PageObject/UserAndPermissions.class
+Tests/TestBase.class
+PageObject/Dialog.class
+PageObject/LoginPage.class
+testng/listeners/AnnotationTransformer.class
+PageObject/Roles.class

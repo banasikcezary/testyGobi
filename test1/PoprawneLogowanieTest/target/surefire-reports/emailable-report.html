@@ -1,0 +1,29 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<title>TestNG Report</title>
+<style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}.invisible {display:none}</style>
+</head>
+<body>
+<table>
+<tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
+<tr><th colspan="7">TESTS</th></tr>
+<tr><td><a href="#t0">Tests.PoprawneLogowanieTest</a></td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num attn">1</td><td class="num">72,660</td><td></td><td></td></tr>
+</table>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">TESTS</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Tests.PoprawneLogowanieTest &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">Tests.PoprawneLogowanieTest</td><td><a href="#m0">test</a></td><td rowspan="1">1602079822882</td><td rowspan="1">31293</td></tr><tr><th colspan="4">Tests.PoprawneLogowanieTest &#8212; retried</th></tr><tr class="retriedeven"><td rowspan="1">Tests.PoprawneLogowanieTest</td><td><a href="#m1">test</a></td><td rowspan="1">1602079787054</td><td rowspan="1">31506</td></tr></tbody>
+</table>
+<h2>Tests.PoprawneLogowanieTest</h2><h3 id="m0">Tests.PoprawneLogowanieTest#test</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: [[RemoteWebDriver: chrome on LINUX (bb1bee00e17e492cc7884d7dcad6c860)] -&gt; xpath: /html/body/app-root/cookie-law/cookie-law-component/div/div/a] (tried for 30 second(s) with 500 milliseconds interval)
+Build info: version: &apos;3.141.5&apos;, revision: &apos;d54ebd709a&apos;, time: &apos;2018-11-06T11:42:16&apos;
+System info: host: &apos;vmWCO&apos;, ip: &apos;172.25.0.33&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;4.18.0-193.14.2.el8_2.x86_64&apos;, java.version: &apos;1.8.0_265&apos;
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /tmp/.com.google.Chrome.TwbArq}, goog:chromeOptions: {debuggerAddress: localhost:39463}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true, webdriver.remote.sessionid: bb1bee00e17e492cc7884d7dcad...}
+Session ID: bb1bee00e17e492cc7884d7dcad6c860
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+	at PageObject.LoginPage.typeIntoPasswordField(LoginPage.java:62)
+	at Tests.PoprawneLogowanieTest.test(PoprawneLogowanieTest.java:15)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+... Removed 31 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+</body>
+</html>

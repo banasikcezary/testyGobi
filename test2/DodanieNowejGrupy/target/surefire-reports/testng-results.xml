@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="TESTS" duration-ms="11629" started-at="2020-10-13T13:14:14 CEST" finished-at="2020-10-13T13:14:26 CEST">
+    <groups>
+    </groups>
+    <test name="Tests.DodanieNowejGrupy" duration-ms="11629" started-at="2020-10-13T13:14:14 CEST" finished-at="2020-10-13T13:14:26 CEST">
+      <class name="Tests.DodanieNowejGrupy">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:Tests.DodanieNowejGrupy@4ebea12c]" name="beforeTest" is-config="true" duration-ms="4831" started-at="2020-10-13T13:14:14 CEST" finished-at="2020-10-13T13:14:19 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="test()[pri:0, instance:Tests.DodanieNowejGrupy@4ebea12c]" name="test" duration-ms="6357" started-at="2020-10-13T13:14:19 CEST" description="as Admin Try Add New Certificate" finished-at="2020-10-13T13:14:26 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:Tests.DodanieNowejGrupy@4ebea12c]" name="afterTest" is-config="true" duration-ms="148" started-at="2020-10-13T13:14:26 CEST" finished-at="2020-10-13T13:14:26 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- Tests.DodanieNowejGrupy -->
+    </test> <!-- Tests.DodanieNowejGrupy -->
+  </suite> <!-- TESTS -->
+</testng-results>

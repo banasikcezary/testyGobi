@@ -1,0 +1,9 @@
+testng/listeners/TestListener.class
+PageObject/GroupPage.class
+testng/listeners/RetryAnalyzer.class
+PageObject/UserAndPermissions.class
+Tests/TestBase.class
+Tests/DodanieNowejGrupy.class
+PageObject/Dialog.class
+PageObject/LoginPage.class
+testng/listeners/AnnotationTransformer.class

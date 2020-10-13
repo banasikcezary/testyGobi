@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="TESTS" duration-ms="10482" started-at="2020-10-13T13:17:19 CEST" finished-at="2020-10-13T13:17:29 CEST">
+    <groups>
+    </groups>
+    <test name="Tests.DodanieTaguDoNagrania" duration-ms="10482" started-at="2020-10-13T13:17:19 CEST" finished-at="2020-10-13T13:17:29 CEST">
+      <class name="Tests.DodanieTaguDoNagrania">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:Tests.DodanieTaguDoNagrania@43b4fe19]" name="beforeTest" is-config="true" duration-ms="5218" started-at="2020-10-13T13:17:19 CEST" finished-at="2020-10-13T13:17:24 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="test()[pri:0, instance:Tests.DodanieTaguDoNagrania@43b4fe19]" name="test" duration-ms="4834" started-at="2020-10-13T13:17:24 CEST" description="as Admin Try Add New Certificate" finished-at="2020-10-13T13:17:29 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:Tests.DodanieTaguDoNagrania@43b4fe19]" name="afterTest" is-config="true" duration-ms="160" started-at="2020-10-13T13:17:29 CEST" finished-at="2020-10-13T13:17:29 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- Tests.DodanieTaguDoNagrania -->
+    </test> <!-- Tests.DodanieTaguDoNagrania -->
+  </suite> <!-- TESTS -->
+</testng-results>

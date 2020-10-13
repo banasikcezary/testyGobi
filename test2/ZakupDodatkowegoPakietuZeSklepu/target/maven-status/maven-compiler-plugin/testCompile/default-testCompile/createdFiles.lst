@@ -1,0 +1,8 @@
+Tests/ZakupDodatkowegoPakietuZeSklepu.class
+testng/listeners/TestListener.class
+testng/listeners/RetryAnalyzer.class
+PageObject/ShopPage.class
+Tests/TestBase.class
+PageObject/Dialog.class
+PageObject/LoginPage.class
+testng/listeners/AnnotationTransformer.class

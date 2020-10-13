@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="TESTS" duration-ms="11975" started-at="2020-10-13T13:21:34 CEST" finished-at="2020-10-13T13:21:46 CEST">
+    <groups>
+    </groups>
+    <test name="Tests.EdycjaRoli" duration-ms="11975" started-at="2020-10-13T13:21:34 CEST" finished-at="2020-10-13T13:21:46 CEST">
+      <class name="Tests.EdycjaRoli">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:Tests.EdycjaRoli@423e4cbb]" name="beforeTest" is-config="true" duration-ms="5107" started-at="2020-10-13T13:21:34 CEST" finished-at="2020-10-13T13:21:39 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="test()[pri:0, instance:Tests.EdycjaRoli@423e4cbb]" name="test" duration-ms="6536" started-at="2020-10-13T13:21:39 CEST" description="as Admin Try Add New Certificate" finished-at="2020-10-13T13:21:46 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:Tests.EdycjaRoli@423e4cbb]" name="afterTest" is-config="true" duration-ms="110" started-at="2020-10-13T13:21:46 CEST" finished-at="2020-10-13T13:21:46 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- Tests.EdycjaRoli -->
+    </test> <!-- Tests.EdycjaRoli -->
+  </suite> <!-- TESTS -->
+</testng-results>

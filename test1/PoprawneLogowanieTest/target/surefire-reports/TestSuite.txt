@@ -1,0 +1,14 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 1, Errors: 0, Skipped: 1, Time elapsed: 73.963 s <<< FAILURE! - in TestSuite
+test(Tests.PoprawneLogowanieTest)  Time elapsed: 31.317 s  <<< FAILURE!
+org.openqa.selenium.TimeoutException: 
+Expected condition failed: waiting for element to be clickable: [[RemoteWebDriver: chrome on LINUX (bb1bee00e17e492cc7884d7dcad6c860)] -> xpath: /html/body/app-root/cookie-law/cookie-law-component/div/div/a] (tried for 30 second(s) with 500 milliseconds interval)
+Build info: version: '3.141.5', revision: 'd54ebd709a', time: '2018-11-06T11:42:16'
+System info: host: 'vmWCO', ip: '172.25.0.33', os.name: 'Linux', os.arch: 'amd64', os.version: '4.18.0-193.14.2.el8_2.x86_64', java.version: '1.8.0_265'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /tmp/.com.google.Chrome.TwbArq}, goog:chromeOptions: {debuggerAddress: localhost:39463}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true, webdriver.remote.sessionid: bb1bee00e17e492cc7884d7dcad...}
+Session ID: bb1bee00e17e492cc7884d7dcad6c860
+	at Tests.PoprawneLogowanieTest.test(PoprawneLogowanieTest.java:15)
+

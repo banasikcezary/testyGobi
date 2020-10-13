@@ -1,0 +1,7 @@
+testng/listeners/TestListener.class
+testng/listeners/RetryAnalyzer.class
+Tests/PoprawneLogowanieTest.class
+Tests/TestBase.class
+PageObject/Dialog.class
+PageObject/LoginPage.class
+testng/listeners/AnnotationTransformer.class

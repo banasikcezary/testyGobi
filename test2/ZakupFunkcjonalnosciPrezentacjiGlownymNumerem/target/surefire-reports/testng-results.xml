@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="TESTS" duration-ms="12216" started-at="2020-10-13T13:17:32 CEST" finished-at="2020-10-13T13:17:44 CEST">
+    <groups>
+    </groups>
+    <test name="Tests.ZakupFunkcjonalnosciPrezentacjiGlownymNumerem" duration-ms="12216" started-at="2020-10-13T13:17:32 CEST" finished-at="2020-10-13T13:17:44 CEST">
+      <class name="Tests.ZakupFunkcjonalnosciPrezentacjiGlownymNumerem">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:Tests.ZakupFunkcjonalnosciPrezentacjiGlownymNumerem@6256ac4f]" name="beforeTest" is-config="true" duration-ms="4842" started-at="2020-10-13T13:17:32 CEST" finished-at="2020-10-13T13:17:37 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="test()[pri:0, instance:Tests.ZakupFunkcjonalnosciPrezentacjiGlownymNumerem@6256ac4f]" name="test" duration-ms="6972" started-at="2020-10-13T13:17:37 CEST" description="as Admin Try Add New Certificate" finished-at="2020-10-13T13:17:44 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:Tests.ZakupFunkcjonalnosciPrezentacjiGlownymNumerem@6256ac4f]" name="afterTest" is-config="true" duration-ms="161" started-at="2020-10-13T13:17:44 CEST" finished-at="2020-10-13T13:17:44 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- Tests.ZakupFunkcjonalnosciPrezentacjiGlownymNumerem -->
+    </test> <!-- Tests.ZakupFunkcjonalnosciPrezentacjiGlownymNumerem -->
+  </suite> <!-- TESTS -->
+</testng-results>

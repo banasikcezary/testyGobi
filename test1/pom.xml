@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  
+  <groupId>com.bluesoft</groupId>
+  <artifactId>WCOGuiTests</artifactId>
+  <version>2.0-SNAPSHOT</version>
+  <packaging>pom</packaging>
+  <name>WCOGuiTests</name>
+  
+  <modules>
+    <module>PoprawneLogowanieTest</module>
+<module>DodanieNowejRoli</module>
+<module>DodanieNowegoUprawnienia</module>
+<module>EdycjaUstawienNagrywania</module>
+<module>CsvImport</module>
+<module>EdycjaGrupy</module>
+<module>CsvEksport</module>
+<module>NieudaneLogowanieWCO</module>
+<module>DodanieTaguDoNagrania</module>
+<module>EdycjaRoli</module>
+<module>DodanieNowegoUsera</module>
+<module>DodanieCertyfikatuDoUsera</module>
+<module>DodanieUprawnieniaDoRoli</module>
+<module>DodanieRoliDlaUsera</module>
+<module>PobieranieCertyfikatu</module>
+<module>DodanieNowejGrupy</module>
+<module>SprzedazFunkcjonalnosciPrezentacjiGlownymNumerem</module>
+<module>DodanieRoliDoGrupy</module>
+
+  </modules>
+  
+  <build>
+    <plugins>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-compiler-plugin</artifactId>
+        <version>3.2</version>
+        <configuration> <!-- Compile java 7 compatible bytecode -->
+          <source>1.8</source>
+          <target>1.8</target>
+        </configuration>
+      </plugin>
+    </plugins>
+  </build>
+</project>

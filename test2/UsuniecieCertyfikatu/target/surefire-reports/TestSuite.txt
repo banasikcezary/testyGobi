@@ -1,0 +1,19 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 1, Errors: 0, Skipped: 2, Time elapsed: 129.725 s <<< FAILURE! - in TestSuite
+test(Tests.UsuniecieCertyfikatu)  Time elapsed: 34.122 s  <<< FAILURE!
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.xpath: (//button[text()=" Certyfikat "])[last()]' (tried for 30 second(s) with 500 milliseconds interval)
+	at Tests.UsuniecieCertyfikatu.test(UsuniecieCertyfikatu.java:26)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"(//button[text()=" Certyfikat "])[last()]"}
+  (Session info: headless chrome=86.0.4240.75)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.5', revision: 'd54ebd709a', time: '2018-11-06T11:42:16'
+System info: host: 'vmWCO', ip: '172.25.0.33', os.name: 'Linux', os.arch: 'amd64', os.version: '4.18.0-193.14.2.el8_2.x86_64', java.version: '1.8.0_265'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.75, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /tmp/.com.google.Chrome.8A247C}, goog:chromeOptions: {debuggerAddress: localhost:33551}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true, webdriver.remote.sessionid: a74ce6461d2f9d61e2995979ddd...}
+Session ID: a74ce6461d2f9d61e2995979ddd018f1
+*** Element info: {Using=xpath, value=(//button[text()=" Certyfikat "])[last()]}
+	at Tests.UsuniecieCertyfikatu.test(UsuniecieCertyfikatu.java:26)
+

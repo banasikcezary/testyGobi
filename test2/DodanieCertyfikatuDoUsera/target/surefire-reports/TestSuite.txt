@@ -1,0 +1,15 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 1, Errors: 0, Skipped: 1, Time elapsed: 58.497 s <<< FAILURE! - in TestSuite
+test(Tests.DodanieCertyfikatuDoUsera)  Time elapsed: 13.57 s  <<< FAILURE!
+org.openqa.selenium.InvalidArgumentException: 
+invalid argument: File not found : src/test/java/resources/123.crt
+  (Session info: headless chrome=86.0.4240.75)
+Build info: version: '3.141.5', revision: 'd54ebd709a', time: '2018-11-06T11:42:16'
+System info: host: 'vmWCO', ip: '172.25.0.33', os.name: 'Linux', os.arch: 'amd64', os.version: '4.18.0-193.14.2.el8_2.x86_64', java.version: '1.8.0_265'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.75, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /tmp/.com.google.Chrome.MQ8D3c}, goog:chromeOptions: {debuggerAddress: localhost:42937}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true, webdriver.remote.sessionid: 6a86a65c20f1bb10e9fd28cc9f6...}
+Session ID: 6a86a65c20f1bb10e9fd28cc9f62e465
+	at Tests.DodanieCertyfikatuDoUsera.test(DodanieCertyfikatuDoUsera.java:26)
+

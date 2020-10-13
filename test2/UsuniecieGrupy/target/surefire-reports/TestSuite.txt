@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 1, Errors: 0, Skipped: 2, Time elapsed: 29.146 s <<< FAILURE! - in TestSuite
+test(Tests.UsuniecieGrupy)  Time elapsed: 4.181 s  <<< FAILURE!
+java.lang.IllegalArgumentException: Nie ma takiej grupy
+	at Tests.UsuniecieGrupy.test(UsuniecieGrupy.java:28)
+
